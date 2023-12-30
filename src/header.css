@@ -1,0 +1,27 @@
+.header{
+padding: 20px 50px;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.block-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.link-menu {
+  text-decoration: none;
+  color: #212529;
+font-size: 18px;
+font-weight: 400;
+}
+.link-menu:hover, .tel:hover{
+    color: blue;
+}
+.tel {
+    text-decoration: none;
+    color:#212529;
+    font-size: 18px;
+    font-weight: 400;
+}
